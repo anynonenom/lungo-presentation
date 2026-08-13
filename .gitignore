@@ -114,3 +114,4 @@ client/public/__manus__/version.json
 
 # Raw image working files (compressed copies are embedded in client/src/generated/*.ts)
 client/src/generated/extracted/
+.vercel

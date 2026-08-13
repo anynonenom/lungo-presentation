@@ -143,7 +143,7 @@ export default function Home() {
   }, [active, goTo]);
 
   const toggleFullscreen = async () => {
-    if (!document.fullscreenElement) await deckRef.current?.requestFullscreen();
+    if (!document.fullscreenElement) await document.documentElement.requestFullscreen();
     else await document.exitFullscreen();
   };
 
@@ -290,9 +290,9 @@ export default function Home() {
             <h2 className="headline light-title reveal d1">Three stories.<br /><em>One unmistakable Lungo.</em></h2>
           </div>
           <div className="system-strips">
-            <article className="story-strip story-craft reveal d1"><img src={ASSETS.craftProof} alt="Lungo coffee craft detail" /><span>01</span><h3>The Craft</h3><p>Show the care behind the cup.</p><small>Origin · process · standards</small></article>
-            <article className="story-strip story-table reveal d2"><img src={ASSETS.tableProof} alt="People sharing a table inside Lungo" /><span>02</span><h3>The Table</h3><p>Make the products impossible to forget.</p><small>Drinks · cookies · seasonal drops</small></article>
-            <article className="story-strip story-calm reveal d3"><img src={ASSETS.calmProof} alt="Lungo exterior and its calm material character" /><span>03</span><h3>The Calm</h3><p>Turn the pace into a reason to return.</p><small>Light · people · slow mornings</small></article>
+            <article className="story-strip story-craft reveal d1"><img src={ASSETS.craftProof} alt="Lungo coffee craft detail" /><span>01</span><div className="story-strip-copy"><h3>The Craft</h3><p>Show the care behind the cup.</p><small>Origin · process · standards</small></div></article>
+            <article className="story-strip story-table reveal d2"><img src={ASSETS.tableProof} alt="People sharing a table inside Lungo" /><span>02</span><div className="story-strip-copy"><h3>The Table</h3><p>Make the products impossible to forget.</p><small>Drinks · cookies · seasonal drops</small></div></article>
+            <article className="story-strip story-calm reveal d3"><img src={ASSETS.calmProof} alt="Lungo exterior and its calm material character" /><span>03</span><div className="story-strip-copy"><h3>The Calm</h3><p>Turn the pace into a reason to return.</p><small>Light · people · slow mornings</small></div></article>
           </div>
         </section>
 
@@ -347,10 +347,10 @@ export default function Home() {
               <p className="body-copy reveal d2">One considered monthly shoot. Four clear chapters.</p>
             </div>
             <div className="contact-sheet reveal d2">
-              <article className="frame frame-hero"><img src={ASSETS.dropProof} alt="A signature Lungo matcha product" /><span>01 / DROP</span><strong>Make one product impossible to miss.</strong><small>Hero film + product stills</small></article>
-              <article className="frame"><img src={ASSETS.processProof} alt="Matcha whisking process at Lungo" /><span>02 / CRAFT</span><strong>Show why it is different.</strong><small>Hands + process</small></article>
-              <article className="frame"><img src={ASSETS.voiceProof} alt="Lungo’s positive point of view" /><span>03 / POINT OF VIEW</span><strong>Say something worth keeping.</strong><small>Voice + philosophy</small></article>
-              <article className="frame"><img src={ASSETS.peopleProof} alt="Guests sharing a Lungo moment" /><span>04 / THE TABLE</span><strong>Make the circle visible.</strong><small>People + event</small></article>
+              <article className="frame frame-hero"><img src={ASSETS.dropProof} alt="A signature Lungo matcha product" /><span>01 / DROP</span><div className="frame-copy"><strong>Make one product impossible to miss.</strong><small>Hero film + product stills</small></div></article>
+              <article className="frame"><img src={ASSETS.processProof} alt="Matcha whisking process at Lungo" /><span>02 / CRAFT</span><div className="frame-copy"><strong>Show why it is different.</strong><small>Hands + process</small></div></article>
+              <article className="frame"><img src={ASSETS.voiceProof} alt="Lungo’s positive point of view" /><span>03 / POINT OF VIEW</span><div className="frame-copy"><strong>Say something worth keeping.</strong><small>Voice + philosophy</small></div></article>
+              <article className="frame"><img src={ASSETS.peopleProof} alt="Guests sharing a Lungo moment" /><span>04 / THE TABLE</span><div className="frame-copy"><strong>Make the circle visible.</strong><small>People + event</small></div></article>
             </div>
             <p className="rhythm-close reveal d3">The feed stops asking for attention. <strong>It starts earning it.</strong></p>
           </div>
