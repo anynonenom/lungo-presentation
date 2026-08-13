@@ -297,7 +297,7 @@ export default function Home() {
         </section>
 
         <section id="desire" data-slide data-index="7" className={slideClass(7, "slide-desire paper-slide")}>
-          <figure className="desire-photo reveal"><img src={ASSETS.cookie} alt="Lungo matcha cookies finished with raspberry" /><figcaption>PRODUCT NOTE / 001</figcaption></figure>
+          <figure className="desire-photo reveal"><img src={ASSETS.cookie} alt="A layered Lungo iced coffee held in hand" /><figcaption>PRODUCT NOTE / 001</figcaption></figure>
           <div className="desire-copy slide-pad">
             <p className="micro-label reveal">07 · Product desire</p>
             <h2 className="headline reveal d1">Give people something<br /><em>worth crossing town for.</em></h2>
