@@ -292,7 +292,7 @@ export default function Home() {
           <div className="system-strips">
             <article className="story-strip story-craft reveal d1"><img src={ASSETS.craftProof} alt="Lungo coffee craft detail" /><span>01</span><div className="story-strip-copy"><h3>The Craft</h3><p>Show the care behind the cup.</p><small>Origin · process · standards</small></div></article>
             <article className="story-strip story-table reveal d2"><img src={ASSETS.tableProof} alt="People sharing a table inside Lungo" /><span>02</span><div className="story-strip-copy"><h3>The Table</h3><p>Make the products impossible to forget.</p><small>Drinks · cookies · seasonal drops</small></div></article>
-            <article className="story-strip story-calm reveal d3"><img src={ASSETS.calmProof} alt="Lungo exterior and its calm material character" /><span>03</span><div className="story-strip-copy"><h3>The Calm</h3><p>Turn the pace into a reason to return.</p><small>Light · people · slow mornings</small></div></article>
+            <article className="story-strip story-calm reveal d3"><img src={ASSETS.peopleProof} alt="Lungo exterior and its calm material character" /><span>03</span><div className="story-strip-copy"><h3>The Calm</h3><p>Turn the pace into a reason to return.</p><small>Light · people · slow mornings</small></div></article>
           </div>
         </section>
 
