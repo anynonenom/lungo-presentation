@@ -11,6 +11,7 @@ import {
   calmProof,
   craftProof,
   dropProof,
+  drinkProof,
   peopleProof,
   processProof,
   roomProof,
@@ -33,6 +34,7 @@ const ASSETS = {
   voiceProof,
   peopleProof,
   streetProof,
+  drinkProof,
   toteProof,
   visualCraft: craftProof,
   visualTable: tableProof,
@@ -350,7 +352,8 @@ export default function Home() {
               <article className="frame frame-hero"><img src={ASSETS.dropProof} alt="A layered Lungo iced coffee held in hand" /><span>01 / DROP</span><div className="frame-copy"><strong>Make one product impossible to miss.</strong><small>Hero film + product stills</small></div></article>
               <article className="frame"><img src={ASSETS.processProof} alt="Matcha whisking process at Lungo" /><span>02 / CRAFT</span><div className="frame-copy"><strong>Show why it is different.</strong><small>Hands + process</small></div></article>
               <article className="frame"><img src={ASSETS.voiceProof} alt="Lungo’s positive point of view" /><span>03 / POINT OF VIEW</span><div className="frame-copy"><strong>Say something worth keeping.</strong><small>Voice + philosophy</small></div></article>
-              <article className="frame"><img src={ASSETS.peopleProof} alt="Guests sharing a Lungo moment" /><span>04 / THE TABLE</span><div className="frame-copy"><strong>Make the circle visible.</strong><small>People + event</small></div></article>
+              <article className="frame"><img src={ASSETS.tableProof} alt="People sharing a table inside Lungo" /><span>04 / THE TABLE</span><div className="frame-copy"><strong>Make the circle visible.</strong><small>People + event</small></div></article>
+              <article className="frame"><img src={ASSETS.drinkProof} alt="An iced matcha Lungo drink on a table with the room alive behind it" /><span>05 / IN THE ROOM</span><div className="frame-copy"><strong>Let the room talk for itself.</strong><small>Product + atmosphere</small></div></article>
             </div>
             <p className="rhythm-close reveal d3">The feed stops asking for attention. <strong>It starts earning it.</strong></p>
           </div>
