@@ -297,7 +297,7 @@ export default function Home() {
         </section>
 
         <section id="desire" data-slide data-index="7" className={slideClass(7, "slide-desire paper-slide")}>
-          <figure className="desire-photo reveal"><img src={ASSETS.cookie} alt="A layered Lungo iced coffee held in hand" /><figcaption>PRODUCT NOTE / 001</figcaption></figure>
+          <figure className="desire-photo reveal"><img src={ASSETS.cookie} alt="Lungo matcha cookies finished with raspberry" /><figcaption>PRODUCT NOTE / 001</figcaption></figure>
           <div className="desire-copy slide-pad">
             <p className="micro-label reveal">07 · Product desire</p>
             <h2 className="headline reveal d1">Give people something<br /><em>worth crossing town for.</em></h2>
@@ -347,7 +347,7 @@ export default function Home() {
               <p className="body-copy reveal d2">One considered monthly shoot. Four clear chapters.</p>
             </div>
             <div className="contact-sheet reveal d2">
-              <article className="frame frame-hero"><img src={ASSETS.dropProof} alt="A signature Lungo matcha product" /><span>01 / DROP</span><div className="frame-copy"><strong>Make one product impossible to miss.</strong><small>Hero film + product stills</small></div></article>
+              <article className="frame frame-hero"><img src={ASSETS.dropProof} alt="A layered Lungo iced coffee held in hand" /><span>01 / DROP</span><div className="frame-copy"><strong>Make one product impossible to miss.</strong><small>Hero film + product stills</small></div></article>
               <article className="frame"><img src={ASSETS.processProof} alt="Matcha whisking process at Lungo" /><span>02 / CRAFT</span><div className="frame-copy"><strong>Show why it is different.</strong><small>Hands + process</small></div></article>
               <article className="frame"><img src={ASSETS.voiceProof} alt="Lungo’s positive point of view" /><span>03 / POINT OF VIEW</span><div className="frame-copy"><strong>Say something worth keeping.</strong><small>Voice + philosophy</small></div></article>
               <article className="frame"><img src={ASSETS.peopleProof} alt="Guests sharing a Lungo moment" /><span>04 / THE TABLE</span><div className="frame-copy"><strong>Make the circle visible.</strong><small>People + event</small></div></article>
